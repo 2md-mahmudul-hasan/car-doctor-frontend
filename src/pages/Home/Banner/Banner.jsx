@@ -12,11 +12,11 @@ const Banner = () => {
       <div id="slide1" className="carousel-item relative w-full">
         <img src={banner1} className="w-full" />
         <div className="absolute flex justify-end transform -translate-y-1/2 bottom-0 right-0 gap-4">
-          <a href="#slide4" className="btn btn-circle">❮</a>
+          <a href="#slide6" className="btn btn-circle">❮</a>
           <a href="#slide2" className="btn btn-circle">❯</a>
         </div>
-        <div className="absolute left-0 top-0 translate-y-1/3 w-1/3 space-y-6 text-white p-4 bg-gradient-to-r from-[90deg, #151515 0%] to-[rgba(21, 21, 21, 0) 100%]">
-          <h1 className='text-4xl'>Affordable Price For Car Servicing</h1>
+        <div className="absolute left-0 top-0 translate-y-1/3 w-1/3 space-y-6 text-white p-4 bg-gradient-to-r from-[90deg, #151515] to-[rgba(21, 21, 21, 0) ]">
+          <h1 className='text-4xl font-black'>Affordable Price For Car Servicing</h1>
 
           <h4 className='text-2xl'>There are many variations of passages of  available, but the majority have suffered alteration in some form</h4>
 
@@ -33,8 +33,8 @@ const Banner = () => {
           <a href="#slide3" className="btn btn-circle">❯</a>
         </div>
 
-        <div className="absolute left-0 top-0 translate-y-1/3 w-1/3 space-y-6 text-white p-4 bg-gradient-to-r from-[90deg, #151515 0%] to-[rgba(21, 21, 21, 0) 100%]">
-          <h1 className='text-4xl'>Affordable Price For Car Servicing</h1>
+        <div className="absolute left-0 top-0 translate-y-1/3 w-1/3 space-y-6 text-white p-4 bg-gradient-to-r from-[90deg, #151515] to-[rgba(21, 21, 21, 0) ]">
+          <h1 className='text-4xl font-black'>Affordable Price For Car Servicing</h1>
 
           <h4 className='text-2xl'>There are many variations of passages of  available, but the majority have suffered alteration in some form</h4>
 
@@ -51,8 +51,8 @@ const Banner = () => {
           <a href="#slide4" className="btn btn-circle">❯</a>
         </div>
 
-        <div className="absolute left-0 top-0 translate-y-1/3 w-1/3 space-y-6 text-white p-4 bg-gradient-to-r from-[90deg, #151515 0%] to-[rgba(21, 21, 21, 0) 100%]">
-          <h1 className='text-4xl'>Affordable Price For Car Servicing</h1>
+        <div className="absolute left-0 top-0 translate-y-1/3 w-1/3 space-y-6 text-white p-4 bg-gradient-to-r from-[90deg, #151515 ] to-[rgba(21, 21, 21, 0) ]">
+          <h1 className='text-4xl font-black'>Affordable Price For Car Servicing</h1>
 
           <h4 className='text-2xl'>There are many variations of passages of  available, but the majority have suffered alteration in some form</h4>
 
@@ -65,12 +65,12 @@ const Banner = () => {
       <div id="slide4" className="carousel-item relative w-full">
         <img src={banner4} className="w-full" />
         <div className="absolute flex justify-end transform -translate-y-1/2 bottom-0 right-0 gap-4">
-          <a href="#slide6" className="btn btn-circle">❮</a>
-          <a href="#slide6" className="btn btn-circle">❯</a>
+          <a href="#slide3" className="btn btn-circle">❮</a>
+          <a href="#slide5" className="btn btn-circle">❯</a>
         </div>
 
-        <div className="absolute left-0 top-0 translate-y-1/3 w-1/3 space-y-6 text-white p-4 bg-gradient-to-r from-[90deg, #151515 0%] to-[rgba(21, 21, 21, 0) 100%]">
-          <h1 className='text-4xl'>Affordable Price For Car Servicing</h1>
+        <div className="absolute left-0 top-0 translate-y-1/3 w-1/3 space-y-6 text-white p-4 bg-gradient-to-r from-[90deg, #151515 ] to-[rgba(21, 21, 21, 0) ]">
+          <h1 className='text-4xl font-black'>Affordable Price For Car Servicing</h1>
 
           <h4 className='text-2xl'>There are many variations of passages of  available, but the majority have suffered alteration in some form</h4>
 
@@ -83,12 +83,12 @@ const Banner = () => {
       <div id="slide5" className="carousel-item relative w-full">
         <img src={banner5} className="w-full" />
         <div className="absolute flex justify-end transform -translate-y-1/2 bottom-0 right-0 gap-4">
-          <a href="#slide2" className="btn btn-circle">❮</a>
-          <a href="#slide4" className="btn btn-circle">❯</a>
+          <a href="#slide4" className="btn btn-circle">❮</a>
+          <a href="#slide6" className="btn btn-circle">❯</a>
         </div>
 
-        <div className="absolute left-0 top-0 translate-y-1/3 w-1/3 space-y-6 text-white p-4 bg-gradient-to-r from-[90deg, #151515 0%] to-[rgba(21, 21, 21, 0) 100%]">
-          <h1 className='text-4xl'>Affordable Price For Car Servicing</h1>
+        <div className="absolute left-0 top-0 translate-y-1/3 w-1/3 space-y-6 text-white p-4 bg-gradient-to-r from-[90deg, #151515] to-[rgba(21, 21, 21, 0) ]">
+          <h1 className='text-4xl font-black'>Affordable Price For Car Servicing</h1>
 
           <h4 className='text-2xl'>There are many variations of passages of  available, but the majority have suffered alteration in some form</h4>
 
@@ -101,12 +101,12 @@ const Banner = () => {
       <div id="slide6" className="carousel-item relative w-full">
         <img src={banner6} className="w-full" />
         <div className="absolute flex justify-end transform -translate-y-1/2 bottom-0 right-0 gap-4">
-          <a href="#slide6" className="btn btn-circle">❮</a>
-          <a href="#slide5" className="btn btn-circle">❯</a>
+          <a href="#slide5" className="btn btn-circle">❮</a>
+          <a href="#slide1" className="btn btn-circle">❯</a>
         </div>
 
-        <div className="absolute left-0 top-0 translate-y-1/3 w-1/3 space-y-6 text-white p-4 bg-gradient-to-r from-[90deg, #151515 0%] to-[rgba(21, 21, 21, 0) 100%]">
-          <h1 className='text-4xl'>Affordable Price For Car Servicing</h1>
+        <div className="absolute left-0 top-0 translate-y-1/3 w-1/3 space-y-6 text-white p-4 bg-gradient-to-r from-[90deg, #151515] to-[rgba(21, 21, 21, 0) ]">
+          <h1 className='text-4xl font-black'>Affordable Price For Car Servicing</h1>
 
           <h4 className='text-2xl'>There are many variations of passages of  available, but the majority have suffered alteration in some form</h4>
 
