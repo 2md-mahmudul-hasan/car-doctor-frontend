@@ -5,15 +5,20 @@ import { Link } from 'react-router-dom';
 import { authContext } from '../../../AuthProvider/AuthProvider';
 const Header = () => {
 
-  const { user } = useContext(authContext)
+  const { user, logOut } = useContext(authContext)
   const naveItems = <>
     <li> <Link to='/home'>Home</Link></li>
     <li> <Link to='/About'>About</Link> </li>
     <li> <Link to='/Contact'>Contact</Link></li>
   </>
 
+  const handleLogOut = () => {
+    logOut()
+      .then(err => { err.message })
+  }
 
   return (
+
     <div className="navbar bg-base-100 h-[200px]">
       <div className="navbar-start">
         <div className="dropdown">
@@ -33,7 +38,7 @@ const Header = () => {
       </div>
       <div className="navbar-end">
         {
-          user ? <button className="btn btn-outline btn-secondary"> Log out </button> : <Link to='/login'> <button className="btn btn-outline btn-secondary">login</button></Link>
+          user ? <button onClick={handleLogOut} className="btn btn-outline btn-secondary"> Log out </button> : <Link to='/login'> <button className="btn btn-outline btn-secondary">login</button></Link>
         }
 
 
